@@ -13,12 +13,12 @@ const Navbar = () => {
     return (
       <div className='flex  justify-between items-center h-24 w-full mx-auto px-8 text-black font-semibold text-lg bg-[#ffffff] shadow-lg fixed'>
         <h1 className='w-full text-2xl font-bold text-blue-800'>CSR Activity Registration</h1>
-        <ul className='hidden  md:flex'>
-            <li className='p-4 cursor-pointer'>Home</li>
-            <li className='p-4 cursor-pointer'>Gallery</li>
-            <li className='p-4 cursor-pointer'>About</li>
-            <li className='p-4 cursor-pointer'>Contact</li>
-            <li className='p-4 cursor-pointer'>Login</li>
+        <ul className='hidden  md:flex '>
+            <li className='p-4 cursor-pointer hover:text-blue-900 hover:text-bold rounded-lg'>Home</li>
+            <li className='p-4 cursor-pointer hover:text-blue-900 hover:text-bold rounded-lg'>Gallery</li>
+            <li className='p-4 cursor-pointer hover:text-blue-900 hover:text-bold rounded-lg'>About</li>
+            <li className='p-4 cursor-pointer hover:text-blue-900 hover:text-bold rounded-lg'>Contact</li>
+            <li className='p-4 cursor-pointer hover:text-blue-900 hover:text-bold rounded-lg'>Login</li>
         </ul>
         <div onClick={handleNav} className='block md:hidden' >
             {!nav ? <CloseIcon size={20} /> : <MenuIcon size={20}/>}

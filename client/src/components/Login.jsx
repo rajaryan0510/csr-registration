@@ -10,7 +10,7 @@ export default function Login() {
                 <img className='ml-32 mt-[100px] w-fit h-[618px] object-cover  ' src={LoginImg} alt='cutm'/>
             </div>
             
-            <div className='bg-yellow-200 flex flex-col justify-center'>
+            <div className='bg-blue-900 flex flex-col justify-center'>
                 <form className='max-w-[400px] w-full mx-auto bg-gray-900 mt-28 py-12 px-8 rounded-lg'>
                     <h2 className='text-4xl dark:text-white font-bold text-center'>SIGN IN</h2>
                     <div className='flex flex-col text-white py-2'>
