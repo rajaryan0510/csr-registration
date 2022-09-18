@@ -8,7 +8,7 @@ function App() {
     <div className='bg-[#ffffff]'>
       
     <Navbar/>
-    <Login/>
+    {/* <Login/> */}
     <Dashboard/>
    
     
